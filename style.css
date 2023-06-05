@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #FDF5E6;
+  color: #666666;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  
+  color: #666666;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+img {
+  position: absolute;
+  top: 12%; /* 垂直居中 */
+  left: 67%; /* 水平居中 */
+  width: 10%; /* 设置图像宽度为包含块的50% */
+  /* transform: translate(+50%, +50%);  */
+}
+
+
+main {
+  padding: 50px;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+}
+
+
+
+section {
+  max-width: 950px;
+  margin: 0 auto
+}
+
+section ham {
+  margin-top: 180px;
+  font-size: 24px;
+}
+
+p {
+  max-width: 750px;
+  line-height: 1.5; /* 设置行间距为1.5倍行高 */
+}
+
+/* publications  */
+section h2 {
+  margin-top: 80px;
+  font-size: 24px;
+  text-align: center;
+}
+
+section pb { 
+  list-style: none;
+  padding: 0;  
+}
+
+section pb ti{
+  margin-top: 20px;
+  white-space: pre-warp; 
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+  
+}
+
+section pb ti au{
+  white-space: pre-line; 
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  line-height: 2.0;
+}
+
+logo1 {
+  position: absolute;
+  top: 50%; /* 垂直居中 */
+  left: 67%; /* 水平居中 */
+  width: 100%; /* 设置图像宽度为包含块的50% */
+}
+
+section ep { 
+  margin-top: 20px;
+  white-space: pre-line; 
+  font-size: 16px;
+  list-style: none;
+  padding: 0; 
+}
+
+
+
+
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
